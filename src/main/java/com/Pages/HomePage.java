@@ -9,11 +9,10 @@ public class HomePage extends BasePage {
     public HomePage(WebDriver driver) {
         super(driver);
     }
-    @FindBy(css = ".card:nth-child(3)")
-    WebElement alertsFrameWindows;
-
-
-    public  SidePanel selectAlertsFrameWindows(){
-        return  new SidePanel(driver);
+    @FindBy(xpath = "//li[29]/a")
+    WebElement alerts;
+    public  HomePage selectAlertsFrameWindows(){
+        click(alerts);
+        return  new HomePage(driver);
     }
 }

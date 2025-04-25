@@ -17,9 +17,9 @@ public class TestBase {
         driver.get("https://the-internet.herokuapp.com/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-    }
-    @AfterEach
-    public void terDown(){
-        driver.quit();
-    }
-}
+    }}
+//    @AfterEach
+//    public void terDown(){
+//        driver.quit();
+//    }
+//}
