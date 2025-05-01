@@ -15,15 +15,21 @@ public class DropdownList extends BasePage {
     @FindBy(id = "dropdown")
     WebElement Selectanoption;
 
-    public DropdownList ListDrob() {
+    public DropdownList ListDrob1() {
         click(Droplist);
         Select select = new Select(Selectanoption);
-        select.selectByVisibleText("Option 2");
+        select.selectByVisibleText("Option 1");
         return new DropdownList(driver);
     }
 
     public DropdownList verifyOptionsMenu() {
         Assertions.assertTrue(isElementVisible(Selectanoption));
         return this;
+    }
+    public DropdownList ListDrob2() {
+        click(Droplist);
+        Select select = new Select(Selectanoption);
+        select.selectByVisibleText("Option 2");
+        return new DropdownList(driver);
     }
 }

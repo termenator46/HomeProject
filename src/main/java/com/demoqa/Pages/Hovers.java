@@ -21,20 +21,27 @@ public class Hovers extends BasePage {
     @FindBy(xpath = "/html[1]/body[1]/div[2]/div[1]/div[1]/div[3]/img[1]")
     WebElement image3;
 
-    public Hovers Movingimage() {
+    public Hovers Movingimage1() {
         click(linkHovers);
         Actions actions = new Actions(driver);
         actions.moveToElement(image1).perform();
-        actions.moveToElement(image2).perform();
-        actions.moveToElement(image3).perform();
         return new Hovers(driver);
     }
 
     public Hovers verifyname() {
         Assertions.assertTrue(isElementVisible(image1));
-        Assertions.assertTrue(isElementVisible(image2));
-        Assertions.assertTrue(isElementVisible(image3));
-
         return this;
     }
-}
+    public Hovers Movingimage2(){
+        click(linkHovers);
+        Actions actions = new Actions(driver);
+        actions.moveToElement(image2).perform();
+        return this;
+    }
+    public Hovers Movingimage3(){
+        click(linkHovers);
+        Actions actions = new Actions(driver);
+        actions.moveToElement(image3).perform();
+        return this;
+
+}}

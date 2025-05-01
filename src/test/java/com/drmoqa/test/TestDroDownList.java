@@ -16,8 +16,14 @@ public class TestDroDownList extends TestBase {
 
     @Test
     @DisplayName("Verify the option select")
-    public void MenuList() {
-        dropdownList.ListDrob();
+    public void MenuList1() {
+        dropdownList.ListDrob1();
+        dropdownList.verifyOptionsMenu();
+    }
+    @Test
+    @DisplayName("Verify the option select")
+    public void MenuList2() {
+        dropdownList.ListDrob2();
         dropdownList.verifyOptionsMenu();
     }
 }

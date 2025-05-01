@@ -14,10 +14,24 @@ public class HoversTestmunu extends TestBase {
     }
     @Test
     @DisplayName("Verifi the user heve name")
-    public void Testmovingimage(){
-        hovers.Movingimage();
+    public void Testmovingimage1(){
+        hovers.Movingimage1();
         hovers.verifyname();
     }
+    @Test
+    @DisplayName("Verifi the user heve name")
+    public void Testmovingimage2(){
+        hovers.Movingimage2();
+        hovers.verifyname();
+    }
+    @Test
+    @DisplayName("Verifi the user heve name")
+    public void Testmovingimage3(){
+        hovers.Movingimage3();
+        hovers.verifyname();
+    }
+
+
 
 
 
