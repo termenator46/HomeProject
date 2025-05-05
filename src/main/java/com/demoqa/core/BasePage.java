@@ -47,6 +47,17 @@ public class BasePage {
             exception.getMessage();
             return false;
         }
+
+    }
+    public void pause(int millis) {
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public String getValueDomAttribute(String name, WebElement element) {
+        return element.getDomAttribute(name);
     }
 
 

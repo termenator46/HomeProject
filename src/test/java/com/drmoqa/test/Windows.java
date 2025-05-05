@@ -1,11 +1,11 @@
-package test;
+package com.drmoqa.test;
 
-import com.Pages.HomePage;
+import com.demoqa.Pages.HomePage;
 import com.drmoqa.core.TestBase;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import windows.AlertPage;
+import com.demoqa.windows.AlertPage;
 
 public class Windows extends TestBase {
     AlertPage alertPage;

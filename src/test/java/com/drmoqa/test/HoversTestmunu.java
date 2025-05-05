@@ -1,6 +1,6 @@
-package test;
+package com.drmoqa.test;
 
-import com.Pages.Hovers;
+import com.demoqa.Pages.Hovers;
 import com.drmoqa.core.TestBase;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

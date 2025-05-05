@@ -1,6 +1,6 @@
-package test;
+package com.drmoqa.test;
 
-import com.Pages.DropdownList;
+import com.demoqa.Pages.DropdownList;
 import com.drmoqa.core.TestBase;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

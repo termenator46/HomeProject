@@ -1,4 +1,4 @@
-package windows;
+package com.demoqa.windows;
 
 import com.demoqa.core.BasePage;
 import org.junit.jupiter.api.Assertions;

@@ -1,4 +1,4 @@
-package com.Pages;
+package com.demoqa.Pages;
 import com.demoqa.core.BasePage;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;

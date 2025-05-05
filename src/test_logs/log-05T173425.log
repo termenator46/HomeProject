@@ -1,0 +1,11 @@
+17:34:27.989 [main] INFO  com.drmoqa.utils.MyListener -- Open URL - https://demoqa.com
+17:34:31.224 [main] INFO  com.drmoqa.core.TestBase -- Start test Verify to - Text you entered is displayed
+17:34:41.288 [main] ERROR com.drmoqa.utils.MyListener -- Something went wrong!!!
+17:34:41.288 [main] ERROR com.drmoqa.utils.MyListener -- ================================
+17:34:41.288 [main] ERROR com.drmoqa.utils.MyListener -- Method public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+17:34:41.288 [main] ERROR com.drmoqa.utils.MyListener -- ================================
+17:34:41.288 [main] ERROR com.drmoqa.utils.MyListener -- Target ChromeDriver: chrome on windows (1119112e5d4e45c08595908b4f1ed569)
+17:34:41.288 [main] ERROR com.drmoqa.utils.MyListener -- ================================
+17:34:41.288 [main] ERROR com.drmoqa.utils.MyListener -- Exeption null
+17:34:41.584 [main] INFO  com.drmoqa.core.TestBase -- Stop test
+17:34:41.584 [main] INFO  com.drmoqa.core.TestBase -- ========================================
