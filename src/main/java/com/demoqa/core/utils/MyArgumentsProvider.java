@@ -1,4 +1,4 @@
-package com.drmoqa.utils;
+package com.demoqa.core.utils;
 
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.params.provider.Arguments;

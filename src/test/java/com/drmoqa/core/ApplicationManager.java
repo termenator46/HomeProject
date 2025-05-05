@@ -1,6 +1,7 @@
 package com.drmoqa.core;
 
-import com.drmoqa.utils.MyListener;
+
+import com.demoqa.core.utils.MyListener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;

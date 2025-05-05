@@ -10,7 +10,7 @@ public class DropdownList extends BasePage {
         super(driver);
     }
 
-    @FindBy(css = "div.row:nth-child(2) div.large-12.columns:nth-child(2) ul:nth-child(4) li:nth-child(11) > a:nth-child(1)")
+    @FindBy(xpath = "//*[@id=\"content\"]/ul/li[11]/a")
     WebElement Droplist;
     @FindBy(id = "dropdown")
     WebElement Selectanoption;

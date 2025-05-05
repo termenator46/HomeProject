@@ -1,0 +1,11 @@
+18:08:50.305 [main] INFO  com.demoqa.core.utils.MyListener -- Open URL - https://demoqa.com
+18:08:55.602 [main] INFO  com.drmoqa.core.TestBase -- Start test Verfi the element move
+18:09:05.681 [main] ERROR com.demoqa.core.utils.MyListener -- Something went wrong!!!
+18:09:05.681 [main] ERROR com.demoqa.core.utils.MyListener -- ================================
+18:09:05.682 [main] ERROR com.demoqa.core.utils.MyListener -- Method public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+18:09:05.682 [main] ERROR com.demoqa.core.utils.MyListener -- ================================
+18:09:05.682 [main] ERROR com.demoqa.core.utils.MyListener -- Target ChromeDriver: chrome on windows (412f157209b4f9b27b8ee85627f80ec0)
+18:09:05.682 [main] ERROR com.demoqa.core.utils.MyListener -- ================================
+18:09:05.682 [main] ERROR com.demoqa.core.utils.MyListener -- Exeption null
+18:09:06.188 [main] INFO  com.drmoqa.core.TestBase -- Stop test
+18:09:06.189 [main] INFO  com.drmoqa.core.TestBase -- ========================================

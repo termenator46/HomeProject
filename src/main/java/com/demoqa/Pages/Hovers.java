@@ -12,7 +12,7 @@ public class Hovers extends BasePage {
         super(driver);
     }
 
-    @FindBy(css = "div.row:nth-child(2) div.large-12.columns:nth-child(2) ul:nth-child(4) li:nth-child(25) > a:nth-child(1)")
+    @FindBy(xpath = "//*[@id=\"content\"]/ul/li[25]/a")
     WebElement linkHovers;
     @FindBy(xpath = "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/img[1]")
     WebElement image1;

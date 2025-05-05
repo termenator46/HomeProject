@@ -41,7 +41,7 @@ public class HomePage extends BasePage {
           click(uploadFile);
         return new HomePage(driver);
     }
-    @FindBy(xpath = "//*[@id=\"content\"]/ul/li[6]/a")
+    @FindBy(css = "div.row:nth-child(2) div.large-12.columns:nth-child(2) ul:nth-child(4) li:nth-child(6) > a:nth-child(1)")
     WebElement CheckboxesLink;
     public  HomePage CheckBoxes(){
         click(CheckboxesLink);

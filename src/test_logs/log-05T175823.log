@@ -1,0 +1,11 @@
+17:58:25.307 [main] INFO  com.drmoqa.utils.MyListener -- Open URL - https://demoqa.com
+17:58:28.017 [main] INFO  com.drmoqa.core.TestBase -- Start test Verfi Uplod file
+17:58:38.139 [main] ERROR com.drmoqa.utils.MyListener -- Something went wrong!!!
+17:58:38.139 [main] ERROR com.drmoqa.utils.MyListener -- ================================
+17:58:38.139 [main] ERROR com.drmoqa.utils.MyListener -- Method public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+17:58:38.140 [main] ERROR com.drmoqa.utils.MyListener -- ================================
+17:58:38.140 [main] ERROR com.drmoqa.utils.MyListener -- Target ChromeDriver: chrome on windows (2ad3c077ec9d81a7ef7a63dcdce5e8a1)
+17:58:38.140 [main] ERROR com.drmoqa.utils.MyListener -- ================================
+17:58:38.140 [main] ERROR com.drmoqa.utils.MyListener -- Exeption null
+17:58:38.747 [main] INFO  com.drmoqa.core.TestBase -- Stop test
+17:58:38.747 [main] INFO  com.drmoqa.core.TestBase -- ========================================

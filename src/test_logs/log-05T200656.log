@@ -1,0 +1,12 @@
+20:06:58.201 [main] INFO  com.demoqa.core.utils.MyListener -- Open URL - https://demoqa.com
+20:06:59.680 [main] INFO  com.drmoqa.core.TestBase -- Start test verfi the 2 boxs chekd
+20:07:09.715 [main] ERROR com.demoqa.core.utils.MyListener -- Something went wrong!!!
+20:07:09.715 [main] ERROR com.demoqa.core.utils.MyListener -- --------------------------------------------
+20:07:09.715 [main] ERROR com.demoqa.core.utils.MyListener -- Method public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+20:07:09.715 [main] ERROR com.demoqa.core.utils.MyListener -- ----------------------------------------------------
+20:07:09.715 [main] ERROR com.demoqa.core.utils.MyListener -- TargetChromeDriver: chrome on windows (6c8e60db6970e35d7260c35cf7b2f974)
+20:07:09.715 [main] ERROR com.demoqa.core.utils.MyListener -- ----------------------------------------------
+20:07:09.716 [main] ERROR com.demoqa.core.utils.MyListener -- Exeption null
+20:07:09.716 [main] INFO  com.demoqa.core.utils.MyListener -- Screen with error-->Screenshots/screen_1026.png
+20:07:10.154 [main] INFO  com.drmoqa.core.TestBase -- Stop test
+20:07:10.154 [main] INFO  com.drmoqa.core.TestBase -- ========================================
