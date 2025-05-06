@@ -4,6 +4,7 @@ import com.demoqa.Pages.DropdownList;
 import com.drmoqa.core.TestBase;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class TestDroDownList extends TestBase {
@@ -20,7 +21,9 @@ public class TestDroDownList extends TestBase {
         dropdownList.ListDrob1();
         dropdownList.verifyOptionsMenu();
     }
+
     @Test
+    @Tag("suite")
     @DisplayName("Verify the option select")
     public void MenuList2() {
         dropdownList.ListDrob2();

@@ -5,6 +5,7 @@ import com.demoqa.Pages.HomePage;
 import com.drmoqa.core.TestBase;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class TestChecjboxes extends TestBase {
@@ -15,7 +16,9 @@ public class TestChecjboxes extends TestBase {
         homePage = new HomePage(driver);
         checkboxes = new Checkboxes(driver);
     }
+
     @Test
+    @Tag("suite")
     @DisplayName("verfi the 2 boxs chekd")
     public void Test1(){
         homePage.CheckBoxes();
@@ -24,3 +27,4 @@ public class TestChecjboxes extends TestBase {
 
     }
 }
+//! mvn clean test -Dtest=TestChecjboxes#Test1
